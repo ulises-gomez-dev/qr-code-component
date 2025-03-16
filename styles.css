@@ -1,0 +1,56 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-code-container {
+    width: 320px;
+    height: 499px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+}
+
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.qr-code-description {
+    height: 131px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.qr-code-description h2 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.qr-code-description p {
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+    text-align: center;
+}
+
+h2,
+p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/*
+Outfit: CSS class for a variable style
+
+.outfit-<uniquifier> {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+*/
